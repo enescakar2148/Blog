@@ -8,9 +8,9 @@ export default function Navbar() {
             <nav>
             <h1 id="title">Enes Çakar</h1>
                 <ul>
-                    <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/about">About</NavLink></li>
-                    <li><NavLink to="/contact">Contact</NavLink></li>
+                    <li><NavLink to="/Blog">Home</NavLink></li>
+                    <li><NavLink to="/Blog/about">About</NavLink></li>
+                    <li><NavLink to="/Blog/contact">Contact</NavLink></li>
                 </ul>
             </nav>
         </div>
