@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <div className="nav-swapper">
             <nav>
-            <h1 id="title">Lorem Ipsum! </h1>
+            <h1 id="title">Enes Çakar</h1>
                 <ul>
                     <li><NavLink to="/">Home</NavLink></li>
                     <li><NavLink to="/about">About</NavLink></li>
