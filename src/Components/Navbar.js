@@ -1,0 +1,18 @@
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import "../css/navbar.css";
+
+export default function Navbar() {
+    return (
+        <div className="nav-swapper">
+            <nav>
+            <h1 id="title">Lorem Ipsum! </h1>
+                <ul>
+                    <li><NavLink to="/">Home</NavLink></li>
+                    <li><NavLink to="/about">About</NavLink></li>
+                    <li><NavLink to="/contact">Contact</NavLink></li>
+                </ul>
+            </nav>
+        </div>
+    )
+}
