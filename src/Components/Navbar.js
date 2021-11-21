@@ -11,6 +11,8 @@ export default function Navbar() {
                     <li><NavLink to="/Blog">Home</NavLink></li>
                     <li><NavLink to="/Blog/about">About</NavLink></li>
                     <li><NavLink to="/Blog/contact">Contact</NavLink></li>
+                    {/* <li id="sign-in"><NavLink to="/Blog/sign-in">Sign In</NavLink></li>
+                    <li id="sign-up"><NavLink to="/Blog/sign-up">Sign Up</NavLink></li> */}
                 </ul>
             </nav>
         </div>

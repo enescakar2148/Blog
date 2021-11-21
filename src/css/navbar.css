@@ -1,5 +1,91 @@
 @import url("./color.css");
 
+@font-face {
+    font-family: poppins-black;
+    src: url("../fonts/Poppins-Black.otf");
+}
+
+@font-face {
+    font-family: poppins-black-italic;
+    src: url("../fonts/Poppins-BlackItalic.otf");
+}
+
+@font-face {
+    font-family: poppins-bold-italic;
+    src: url("../fonts/Poppins-BoldItalic.otf");
+}
+@font-face {
+    font-family: poppins-extra-bold;
+    src: url("../fonts/Poppins-ExtraBold.otf");
+}
+
+
+@font-face {
+    font-family: poppins-extra-bold-italic;
+    src: url("../fonts/Poppins-ExtraBoldItalic.otf");
+}
+
+@font-face {
+    font-family: poppins-extra-light;
+    src: url("../fonts/Poppins-ExtraLight.otf");
+}
+
+@font-face {
+    font-family: poppins-extra-light-italic;
+    src: url("../fonts/Poppins-ExtraLightItalic.otf");
+}
+
+@font-face {
+    font-family: poppins-italic;
+    src: url("../fonts/Poppins-Italic.otf");
+}
+
+@font-face {
+    font-family: poppins-light;
+    src: url("../fonts/Poppins-Light.otf");
+}
+
+@font-face {
+    font-family: poppins-light-italic;
+    src: url("../fonts/Poppins-LightItalic.otf");
+}
+
+@font-face {
+    font-family: poppins-medium;
+    src: url("../fonts/Poppins-Medium.otf");
+}
+
+@font-face {
+    font-family: poppins-medium-italic;
+    src: url("../fonts/Poppins-MediumItalic.otf");
+}
+
+@font-face {
+    font-family: poppins-regular;
+    src: url("../fonts/Poppins-Regular.otf");
+}
+
+@font-face {
+    font-family: poppins-semi-bold;
+    src: url("../fonts/Poppins-SemiBold.otf");
+}
+
+@font-face {
+    font-family: poppins-semi-bold-italic;
+    src: url("../fonts/Poppins-SemiBoldItalic.otf");
+}
+
+@font-face {
+    font-family: poppins-thin;
+    src: url("../fonts/Poppins-Thin.otf");
+}
+
+@font-face {
+    font-family: poppins-thin-italic;
+    src: url("../fonts/Poppins-ThinItalic.otf");
+}
+
+
 .nav-swapper{
     width: 100%;
     position: fixed;
@@ -28,33 +114,49 @@ ul{
 
 li{
     margin: 1rem .5rem 1rem .5rem;
+    font-family: poppins-thin;
+    font-size: 1.5rem;
 }
 a{
-    font-size: 1.75rem;
+  font-size: 1.75rem;
     color: #fff;
     text-decoration: none;
     cursor: pointer;
     transition: .2s;
     letter-spacing: 1px;
     font-size: 1.35rem;
+    border-bottom: 2px solid transparent;
+    padding: .25rem .5rem;
+
 }
 
 a:hover{
-    color: var(--RED);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    transition: .2s;
+    color: #fff;
+     text-shadow:
+    0 0 10px #fff,
+    0 0 17px #fff,
+    0 0 28px #fff,
+    0 0 42px rgb(255, 0, 0),
+    0 0 82px rgb(255, 0, 0),
+    0 0 92px rgb(255, 0, 0),
+    0 0 102px rgb(255, 0, 0),
+    0 0 151px rgb(255, 0, 0);
 }
 
 #title{
     color: #fff;
     padding: .5rem;
     letter-spacing: 1px;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
+    font-family: poppins-thin;
 }
 
 @media(max-width: 650px){
     nav{
         flex-direction: column;
         align-items: center;
-        /* padding: .5rem 0 .5rem 0; */
     }
     
     a{
