@@ -121,7 +121,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 2rem;
     justify-content: center;
 }
 
@@ -133,6 +133,12 @@
 
 #post-body{
     font-family: poppins-thin;
+    margin-top: 1rem;
+    letter-spacing: 2px;
+}
+
+#post-read-more{
+    margin: 1rem 0 0 0;
 }
 
 #post-image{
@@ -142,12 +148,21 @@
 
 
 @media(max-width: 1100px) {
+    .home-swapper{
+        height: 100%;
+    }
+    #post-title{
+        font-size: 2rem;
+    }
+    #post-body{
+        font-size: .85rem;
+    }
     #post-image{
         width: 35%;
     }
     
     .card-image{
-        height: 350px;
+        height: fit-content;
         width: 80%;
     }
 }

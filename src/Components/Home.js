@@ -44,8 +44,9 @@ class Home extends React.Component {
                             <img src={testImage} id="post-image" alt="Post İmage" />
                             <div className="post-content">
                                 <h1 id="post-title">İlk Yazı :)</h1>
-                                <p id="post-body">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                                <p id="post-body">It is a long established fact that a reader will be distracted..</p>
                                 <p id="post-read-more">Read More...</p>
+                                <p id="time-text">21.11.2021</p>
 
                                 {/* <div className="post-icons">
                                     <ul className="post-icons" id="post-icons">
